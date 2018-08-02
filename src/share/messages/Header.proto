@@ -1,0 +1,14 @@
+package messages;
+
+option java_outer_classname = "_File_Header";
+option java_multiple_files = true;
+
+
+
+message Header
+{
+    optional int64 timestamp = 1;
+    required string name = 2;
+    required int32 version = 3;
+    optional bool top_camera = 4;
+}

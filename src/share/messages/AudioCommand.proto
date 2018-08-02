@@ -1,0 +1,12 @@
+package messages;
+
+option java_outer_classname = "_File_AudioCommand";
+option java_multiple_files = true;
+
+
+
+message AudioCommand
+{
+    //path to wav file (look at SoundPaths.h)
+    optional string audio_file = 1;
+}

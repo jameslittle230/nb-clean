@@ -1,0 +1,19 @@
+package messages;
+
+option java_outer_classname = "_File_ParticleSwarm";
+option java_multiple_files = true;
+
+
+
+import "RobotLocation.proto";
+
+message ParticleSwarm
+{
+    repeated Particle particle = 1;
+}
+
+message Particle
+{
+    optional float weight = 1;
+    optional RobotLocation loc = 2;
+}

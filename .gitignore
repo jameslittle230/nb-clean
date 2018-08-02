@@ -1,0 +1,22 @@
+# Generated folders
+build/*
+lib/*
+
+# Binary files
+*.wav
+*.so
+*.pdf
+*.o
+
+# Generated files
+util/scripts/nbites.bash
+util/scripts/wireless_config/wpa_supplicant.conf
+
+# Editor files
+.DS_Store
+_tempFiles
+*.swp
+.vscode/
+
+# @TODO: Figure out build system
+src/man/man

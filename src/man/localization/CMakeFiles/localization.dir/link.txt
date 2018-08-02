@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblocalization.a  CMakeFiles/localization.dir/LocalizationModule.cpp.o CMakeFiles/localization.dir/ParticleFilter.cpp.o CMakeFiles/localization.dir/VisionSystem.cpp.o CMakeFiles/localization.dir/MotionSystem.cpp.o CMakeFiles/localization.dir/LineSystem.cpp.o CMakeFiles/localization.dir/LandmarkSystem.cpp.o
+/usr/bin/ranlib liblocalization.a

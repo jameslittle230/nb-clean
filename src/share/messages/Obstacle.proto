@@ -1,0 +1,44 @@
+package messages;
+
+option java_outer_classname = "_File_Obstacle";
+option java_multiple_files = true;
+
+
+
+message FieldObstacles
+{
+    message Obstacle
+    {
+        enum ObstaclePosition
+        {
+            NONE = 0;
+            NORTH = 1;
+            NORTHEAST = 2;
+            EAST = 3;
+            SOUTHEAST = 4;
+            SOUTH = 5;
+            SOUTHWEST = 6;
+            WEST = 7;
+            NORTHWEST = 8;
+        }
+
+        enum ObstacleDetector
+        {
+            NA = 0;
+            ARMS = 1;
+            SONARS = 2;
+            VISION = 3;
+        }
+
+        optional ObstaclePosition position = 1;
+        optional float distance = 2;
+        optional ObstacleDetector detector = 3;
+
+        optional float closest_y = 4;
+        optional float box_bottom = 5;
+        optional float box_left = 6;
+        optional float box_right = 7;
+    }
+    repeated Obstacle obstacle = 1;
+}
+

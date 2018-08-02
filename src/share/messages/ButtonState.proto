@@ -1,0 +1,22 @@
+package messages;
+
+option java_outer_classname = "_File_ButtonState";
+option java_multiple_files = true;
+
+
+
+message ButtonState
+{
+    optional bool pressed = 1;
+}
+
+message FootBumperState
+{
+    // Left foot bumpers.
+    optional ButtonState l_foot_bumper_left = 1;
+    optional ButtonState l_foot_bumper_right = 2;
+
+    // Right foot bumpers.
+    optional ButtonState r_foot_bumper_left = 3;
+    optional ButtonState r_foot_bumper_right = 4;
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmotion.a  CMakeFiles/motion.dir/MotionModule.cpp.o CMakeFiles/motion.dir/NullProvider.cpp.o CMakeFiles/motion.dir/BaseFreezeCommand.cpp.o CMakeFiles/motion.dir/BodyJointCommand.cpp.o CMakeFiles/motion.dir/ChoppedCommand.cpp.o CMakeFiles/motion.dir/SmoothChoppedCommand.cpp.o CMakeFiles/motion.dir/LinearChoppedCommand.cpp.o CMakeFiles/motion.dir/ChopShop.cpp.o CMakeFiles/motion.dir/ScriptedProvider.cpp.o CMakeFiles/motion.dir/HeadJointCommand.cpp.o CMakeFiles/motion.dir/HeadProvider.cpp.o
+/usr/bin/ranlib libmotion.a

@@ -1,0 +1,97 @@
+/* -*- C++ -*- Tell editors this is a C++ file (despite it's .in extension) */
+
+#pragma once
+
+// :::::::::::::::::::::::::: Options variables :::..
+
+#define DEBUG_COMM_${DEBUG_COMM}
+#ifdef  DEBUG_COMM_ON
+#   define DEBUG_COMM
+#else
+#   undef DEBUG_COMM
+#endif
+
+#define DEBUG_BALLTRACK_${DEBUG_BALLTRACK}
+#ifdef  DEBUG_BALLTRACK_ON
+#   define DEBUG_BALLTRACK
+#else
+#   undef DEBUG_BALLTRACK
+#endif
+
+#define DEBUG_LOC_${DEBUG_LOC}
+#ifdef  DEBUG_LOC_ON
+#   define DEBUG_LOC
+#else
+#   undef DEBUG_LOC
+#endif
+
+#define DEBUG_THREADS_${DEBUG_THREADS}
+#ifdef  DEBUG_THREADS_ON
+#   define DEBUG_THREADS
+#else
+#   undef DEBUG_THREADS
+#endif
+
+#define DEBUG_LOGGING_${DEBUG_LOGGING}
+#ifdef  DEBUG_LOGGING_ON
+#   define DEBUG_LOGGING
+#else
+#   undef DEBUG_LOGGING
+#endif
+
+#define OFFLINE_${OFFLINE}
+#ifdef OFFLINE_ON
+#   define OFFLINE
+#else
+#   undef  OFFLINE
+#endif
+
+#define PROFILE_${PROFILE}
+#ifdef  PROFILE_ON
+#   define USE_TIME_PROFILING
+#else
+#   undef  USE_TIME_PROFILING
+#endif
+
+#define USE_LAB_FIELD_${USE_LAB_FIELD}
+#ifdef  USE_LAB_FIELD_ON
+#   define USE_LAB_FIELD
+#else
+#   undef USE_LAB_FIELD
+#endif
+
+#define USE_SPL_COMM_${USE_SPL_COMM}
+#ifdef  USE_SPL_COMM_ON
+#   define USE_SPL_COMM
+#else
+#   undef USE_SPL_COMM
+#endif
+
+#define V5_ROBOT_${V5_ROBOT}
+#ifdef  V5_ROBOT_ON
+#    define V5_ROBOT
+#else
+#    undef V5_ROBOT
+#endif
+
+#define USE_LOGGING_${USE_LOGGING}
+#ifdef  USE_LOGGING_ON
+#   define USE_LOGGING
+#else
+#   undef USE_LOGGING
+#endif
+
+#define USE_ROBOT_TTS_${USE_ROBOT_TTS}
+#ifdef USE_ROBOT_TTS_ON
+#   define USE_ROBOT_TTS
+#else
+#   undef USE_ROBOT_TTS
+#endif
+
+#define USE_SPL_BUTTONS_${USE_SPL_BUTTONS}
+#ifdef USE_SPL_BUTTONS_ON
+#   define USE_SPL_BUTTONS
+#else
+#   undef USE_SPL_BUTTONS
+#endif
+

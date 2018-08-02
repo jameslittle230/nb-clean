@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarms.a  CMakeFiles/arms.dir/ArmContactModule.cpp.o
+/usr/bin/ranlib libarms.a

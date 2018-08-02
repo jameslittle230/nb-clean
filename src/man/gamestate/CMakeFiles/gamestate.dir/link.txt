@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgamestate.a  CMakeFiles/gamestate.dir/GameStateModule.cpp.o
+/usr/bin/ranlib libgamestate.a

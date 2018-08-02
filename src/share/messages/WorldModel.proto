@@ -1,0 +1,45 @@
+package messages;
+
+option java_outer_classname = "_File_WorldModel";
+option java_multiple_files = true;
+
+
+
+message WorldModel
+{
+    optional int64 timestamp = 1;
+
+    optional float my_x = 2;
+    optional float my_y = 3;
+    optional float my_h = 4;
+
+    optional float my_uncert = 5;
+
+    optional float walking_to_x = 6;
+    optional float walking_to_y = 7;
+
+    optional bool  ball_on = 8;
+    optional int32 ball_age = 9;
+
+    optional float ball_dist = 10;
+    optional float ball_bearing = 11;
+    optional float ball_vel_x = 12;
+    optional float ball_vel_y = 13;
+
+    optional float ball_uncert = 14;
+
+    optional int32 role = 15;
+
+    optional bool  in_kicking_state = 16;
+    optional float kicking_to_x = 17;
+    optional float kicking_to_y = 18;
+
+    optional bool  fallen = 19;
+    optional bool  active = 20;
+
+    optional bool  claimed_ball = 21;
+
+    optional int32 intention = 22;
+
+    optional bool  alive = 23;
+}

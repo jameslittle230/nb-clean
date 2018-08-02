@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcomm.a  CMakeFiles/comm.dir/CommModule.cpp.o CMakeFiles/comm.dir/CommTimer.cpp.o CMakeFiles/comm.dir/NetworkMonitor.cpp.o CMakeFiles/comm.dir/TeamConnect.cpp.o CMakeFiles/comm.dir/GameConnect.cpp.o CMakeFiles/comm.dir/UDPSocket.cpp.o
+/usr/bin/ranlib libcomm.a

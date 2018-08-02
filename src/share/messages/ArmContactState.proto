@@ -1,0 +1,25 @@
+package messages;
+
+option java_outer_classname = "_File_ArmContactState";
+option java_multiple_files = true;
+
+
+
+message ArmContactState
+{
+    enum PushDirection
+    {
+        NONE = 0;
+	NORTH = 1;
+	NORTHEAST = 2;
+	EAST = 3;
+	SOUTHEAST = 4;
+	SOUTH = 5;
+	SOUTHWEST = 6;
+	WEST = 7;
+	NORTHWEST = 8;
+    }
+
+    optional PushDirection right_push_direction = 1;
+    optional PushDirection left_push_direction = 2;
+}

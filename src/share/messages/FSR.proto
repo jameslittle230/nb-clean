@@ -1,0 +1,21 @@
+package messages;
+
+option java_outer_classname = "_File_FSR";
+option java_multiple_files = true;
+
+
+
+message FSR
+{
+    // Left foot.
+    optional float lfl = 1; // front left
+    optional float lfr = 2; // front right
+    optional float lrl = 3; // rear left
+    optional float lrr = 4; // rear right
+
+    // Right foot.
+    optional float rfl = 5; // front left
+    optional float rfr = 6; // front right
+    optional float rrl = 7; // rear left
+    optional float rrr = 8; // rear right
+}
